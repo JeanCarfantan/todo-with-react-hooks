@@ -31,3 +31,40 @@
     transform: rotate(360deg);
   }
 }
+
+#form {
+  background-color: #e0e0e0;
+  padding: 40px;
+}
+#todo_input {
+  width: 80%;
+  height: 40px;
+  border: none;
+  font-size: 20px;
+}
+#submit_button {
+  width: 80px;
+  height: 40px;
+  margin: 10px;
+  border: none;
+  box-shadow: 5px 5px 5px #888888;
+  font-size: 20px;
+  border-radius: 40px;
+
+}
+#submit_button:hover {
+  box-shadow: 2px 2px 5px #888888;
+  background-color: #80cbc4;
+  color: white;
+}
+
+.todo_list {
+  list-style-type: none;
+  padding-left: 0;
+}
+.todo_item {
+  background-color: #282c34;
+  color: wheat;
+  margin: 20px;
+  padding: 20px;
+}
